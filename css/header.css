@@ -1,11 +1,11 @@
 .header {
     background: #ffffff;
-    border-bottom: 1px solid #CCCCCC;
-    height: 125px;
+    /*border-bottom: 1px solid #CCCCCC;*/
+    /*height: 125px;*/
 }
 
 .header .first-row{
-    margin-top: 35px;
+    margin-top: 25px;
     background-color: #EBEBEB;
 
 }
@@ -18,7 +18,7 @@
 }
 
 .header .dropdown-menu {
-    margin-top: 35px;
+    margin-top: 25px;
     width: 100%;
 }
 
@@ -64,7 +64,7 @@
 }
 
 .product-basket{
-    margin-top: 35px;
+    margin-top: 25px;
     height: 35px;
     background-color: #969696;
     color: #ffffff;
@@ -78,6 +78,23 @@
 }
 
 .no-padding{
-    padding: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 
+.header .navbar{
+    height: 42px;
+    background: transparent;
+    border: none;
+    border-top: 1px solid #CCCCCC;
+    border-radius: 0px;
+    margin-top: 20px;
+    /*min-height: 42px !important;*/
+    margin-bottom: 0px;
+}
+
+.header .navbar-nav > li > a {padding-top:10px !important; padding-bottom:10px !important;}
+.header .navbar {min-height:42px !important}
+.header .navbar .container-fluid {padding-left: 0px !important}
+.header .navbar .navbar-collapse {padding-left: 0px !important}
+.header .navbar-right > li > a {padding: 2px}
