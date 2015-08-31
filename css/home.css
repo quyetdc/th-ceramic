@@ -5,7 +5,7 @@
 .home {
     background-color: #f1f1f1;
     position: relative;
-    display: -webkit-box;
+    /*display: -webkit-box;*/
     padding-bottom: 50px;
 }
 
@@ -42,3 +42,25 @@
     background-color: #5B5B5B;
     color: #ffffff;
 }
+
+.home .second-box {
+    /*padding-left: 0px;*/
+    /*padding-right: 0px;*/
+    margin-top: 32px;
+}
+
+
+/*==========  Mobile First Method  ==========*/
+/* Small Devices, Tablets */
+@media only screen and (min-width : 992px) {
+
+    .home .second-box .col-md-4:first-child{
+        left: -15px;
+    }
+
+    .home .second-box .col-md-4:last-child{
+        right: -15px;
+    }
+
+}
+
