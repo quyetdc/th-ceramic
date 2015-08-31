@@ -9,20 +9,12 @@
     padding-bottom: 50px;
 }
 
-.home .first-box .col-md-3 {
-    padding: 0px;
-}
-
-.home .first-box .col-md-9 {
-    padding: 0px;
-}
-
 .home .sidebar {
-    padding: 4px 0px;
+    /*padding: 4px 0px;*/
     border: none;
     border-radius: 0px;
     height: 420px;
-    background-color: #ffffff;
+    /*background-color: #ffffff;*/
 }
 
 .home .sidebar a{
@@ -55,12 +47,20 @@
 @media only screen and (min-width : 992px) {
 
     .home .second-box .col-md-4:first-child{
-        left: -15px;
+        /*left: -15px;*/
     }
 
     .home .second-box .col-md-4:last-child{
-        right: -15px;
+        /*right: -15px;*/
     }
 
+    .home .first-box .col-md-9 {
+        padding-left: 0px;
+    }
 }
 
+.home-img-sb img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 17px;
+}
