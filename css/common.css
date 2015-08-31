@@ -23,6 +23,13 @@
     font-size: 1.2em;
 }
 
+.img-caption-border-top {
+    position: relative;
+    top: -95px;
+    height: 2px;
+    background-color: #FFF;
+    width: 100%;
+}
 
 /*==========  Mobile First Method  ==========*/
 
